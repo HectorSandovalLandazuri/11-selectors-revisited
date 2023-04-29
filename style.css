@@ -1,0 +1,72 @@
+* {
+    color:red;
+}
+
+#heading {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.heading {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: green;
+}
+
+
+p::first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 150%;
+}
+
+div h1 {
+    color: orange;    
+}
+
+div > h1 {
+    color:purple;
+}
+
+a:hover {
+    color:brown;
+    text-decoration: none;
+    background: pink;
+}
+
+.anchor p:hover {
+    color: white;
+    background: blue;
+    letter-spacing: 5px;
+}
+
+a {
+    display: block;
+    background: blue;
+    color: white;
+    margin: 10px;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color:green;
+}
+
+a:active {
+    color:red;    
+}
+
+.absolute {
+    font-size: 24px;
+}
+
+.relative {
+    font-size: 1.5rem;
+
+}
